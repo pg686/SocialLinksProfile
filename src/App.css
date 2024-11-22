@@ -1,0 +1,64 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 8%);
+  width: 100vw;
+  height: 100vh;
+}
+
+.box{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px;
+  background-color:  hsl(0, 0%, 12%);
+  border-radius: 8px;
+  gap: 20px;
+}
+
+.button{
+  width: 100%;
+  padding: 10px;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 700;
+  text-align: center;
+}
+.button:hover{
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+.buttonWrapper{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  width: 100%;
+}
+img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; 
+}
+.info{ 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.info > h2 {
+  color: white;
+}
+.info > h5 {
+  color: hsl(75, 94%, 57%);
+}
+
+.description {
+  color: white;
+  font-weight: 300;
+}
