@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='container'>
      <div className="box">
-      <img src="public/avatar-jessica.jpeg" alt="Daniel" className="image" />
+      <img src="dist/avatar-jessica.jpeg" alt="Daniel" className="image" />
       <div className='info'>
         <h2>Jessica Randall</h2>
         <h5>London, United Kingdom</h5>
